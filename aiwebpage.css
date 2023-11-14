@@ -1,0 +1,111 @@
+.body {
+    background-color: cornflowerblue;
+}
+
+.title {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin: 50px 200px;
+    font-family: Arial;
+    border-radius: 1rem;
+}
+
+.questions {
+    text-align: center;
+}
+
+.questions ul li {
+    background-color: yellow;
+    padding: 50px 100px;
+    border-radius: 0.5rem;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.home a {
+    color: white;
+    text-decoration: none;
+}
+
+#home {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home {
+    color: white;
+    background-color: brown;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    margin: 40px 0px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.question{
+    background-color: yellow;
+    padding: 10px 200px;
+    border-radius: 0.5rem;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+.img {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.text{
+    background-color: orange;
+    padding: 10px 200px;
+    border-radius: 0.5rem;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+
+#answercontainer {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#answercontainer #positive{
+    width: 45%;
+}
+
+.header{
+    background-color: brown;
+    color: white;
+    padding: 5px;
+}
+
+.answer {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.explanation {
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+#answercontainer #negative{
+    width: 45%;
+}
